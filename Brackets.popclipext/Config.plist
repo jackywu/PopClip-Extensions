@@ -84,9 +84,25 @@
 				<string>option-angle=1</string>
 			</array>
 		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>double-colon.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Shell Script File</key>
+			<string>double-colon.php</string>
+			<key>Title</key>
+			<string>Double Colon</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-angle=1</string>
+			</array>
+		</dict>
 	</array>
 	<key>Extension Description</key>
-	<string>Put brackets around the selected text, choosing from (), [], {}, &#96;&#96; and &lt;&gt;.</string>
+	<string>Put brackets around the selected text, choosing from (), [], {}, &#96;&#96; &lt;&gt; and &#42;&#42;.</string>
 	<key>Extension Identifier</key>
 	<string>com.jackywu.popclip.extension.brackets</string>
 	<key>Extension Name</key>
@@ -130,6 +146,14 @@
 			<string>backquote</string>
 			<key>Option Label</key>
 			<string>Backquote &#96; &#96;</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>double-colon</string>
+			<key>Option Label</key>
+			<string>DoubleColon &#42; &#42;</string>
 			<key>Option Type</key>
 			<string>boolean</string>
 		</dict>
